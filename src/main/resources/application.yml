@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    preferIpAddress: true
+    preferIpAddress: false
     hostname: ${HOSTNAME:localhost}
 
   client:
